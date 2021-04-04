@@ -7,6 +7,7 @@
 
 import UIKit
 import CoreData
+import SideMenu
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
