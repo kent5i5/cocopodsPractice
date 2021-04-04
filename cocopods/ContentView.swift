@@ -6,11 +6,18 @@
 //
 
 import SwiftUI
-
+import Alamofire
 struct ContentView: View {
+    
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
+            .onAppear(){
+                AF.request("https://httpbin.org/get").response { response in
+                    debugPrint(response)
+                }
+            }
         
         CocopodsViewControllerRepresentation()
     }

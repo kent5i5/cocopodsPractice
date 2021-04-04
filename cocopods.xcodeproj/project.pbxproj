@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		341D69A1261983BB006B7E01 /* cocopodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D69A0261983BB006B7E01 /* cocopodsUITests.swift */; };
 		341D69B226198406006B7E01 /* CocopodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D69B126198406006B7E01 /* CocopodsViewController.swift */; };
 		341D69B72619841D006B7E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341D69B62619841D006B7E01 /* Main.storyboard */; };
+		34DA3178261A3190004BD4CD /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DA3177261A3190004BD4CD /* NetworkViewController.swift */; };
+		34DA317F261A48C9004BD4CD /* jack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 34DA317E261A48C9004BD4CD /* jack.jpg */; };
 		769411CC90A8835AC28D49B6 /* Pods_cocopods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDFE5E8085D7CAD9FD7F3AB /* Pods_cocopods.framework */; };
 		C8DFF4FF83409B1311104EA5 /* Pods_cocopods_cocopodsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88E4188F66D5EE0FE8C9AE38 /* Pods_cocopods_cocopodsUITests.framework */; };
 		F281C8EF54A2627C148DE966 /* Pods_cocopodsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 722DAF89D113F52A40BCA57A /* Pods_cocopodsTests.framework */; };
@@ -59,6 +61,8 @@
 		341D69A2261983BB006B7E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		341D69B126198406006B7E01 /* CocopodsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocopodsViewController.swift; sourceTree = "<group>"; };
 		341D69B62619841D006B7E01 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		34DA3177261A3190004BD4CD /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		34DA317E261A48C9004BD4CD /* jack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jack.jpg; sourceTree = "<group>"; };
 		49BF5E245BE80AD611D9E56D /* Pods-cocopods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopods.debug.xcconfig"; path = "Target Support Files/Pods-cocopods/Pods-cocopods.debug.xcconfig"; sourceTree = "<group>"; };
 		61B2A5CCFFFA0A299A84D4C8 /* Pods-cocopods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cocopods.release.xcconfig"; path = "Target Support Files/Pods-cocopods/Pods-cocopods.release.xcconfig"; sourceTree = "<group>"; };
 		722DAF89D113F52A40BCA57A /* Pods_cocopodsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cocopodsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,8 @@
 				341D697D261983BA006B7E01 /* SceneDelegate.swift */,
 				341D697F261983BA006B7E01 /* ContentView.swift */,
 				341D69B126198406006B7E01 /* CocopodsViewController.swift */,
+				34DA3177261A3190004BD4CD /* NetworkViewController.swift */,
+				34DA317E261A48C9004BD4CD /* jack.jpg */,
 				341D69B62619841D006B7E01 /* Main.storyboard */,
 				341D6984261983BB006B7E01 /* Assets.xcassets */,
 				341D6989261983BB006B7E01 /* LaunchScreen.storyboard */,
@@ -172,7 +178,6 @@
 				8F91E05976168E20043F6811 /* Pods-cocopodsTests.debug.xcconfig */,
 				88745830CCFC6192A98F37C1 /* Pods-cocopodsTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -295,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				341D698B261983BB006B7E01 /* LaunchScreen.storyboard in Resources */,
+				34DA317F261A48C9004BD4CD /* jack.jpg in Resources */,
 				341D6988261983BB006B7E01 /* Preview Assets.xcassets in Resources */,
 				341D6985261983BB006B7E01 /* Assets.xcassets in Resources */,
 				341D69B72619841D006B7E01 /* Main.storyboard in Resources */,
@@ -426,6 +432,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				341D697C261983BA006B7E01 /* AppDelegate.swift in Sources */,
+				34DA3178261A3190004BD4CD /* NetworkViewController.swift in Sources */,
 				341D697E261983BA006B7E01 /* SceneDelegate.swift in Sources */,
 				341D69B226198406006B7E01 /* CocopodsViewController.swift in Sources */,
 				341D6980261983BA006B7E01 /* ContentView.swift in Sources */,

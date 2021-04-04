@@ -17,9 +17,9 @@ class CocopodsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        AF.request("https://httpbin.org/get").response { response in
-            debugPrint(response)
-        }
+//        AF.request("https://httpbin.org/get").response { response in
+//            debugPrint(response)
+//        }
        
     }
     
